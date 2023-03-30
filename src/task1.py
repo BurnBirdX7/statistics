@@ -2,7 +2,7 @@ import random
 import numpy as np
 
 
-def play() -> tuple[bool, int]:
+def play1() -> tuple[bool, int]:
     coins: int = 1
     steps: int = 0
 
@@ -24,7 +24,7 @@ def task1() -> None:
     steps_to_win = []
 
     for _ in range(sample_size):
-        won, steps = play()
+        won, steps = play1()
         if won:
             win_count += 1
             steps_to_win.append(steps)

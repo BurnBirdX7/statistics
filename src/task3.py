@@ -29,8 +29,8 @@ def task3():
         if play(second=True):
             success_second += 1
 
-    print(f'First, chance: {success_first / sample_size}')
-    print(f'First, chance: {success_second / sample_size}')
+    print(f'First, success chance: {success_first / sample_size}')
+    print(f'First, success chance: {success_second / sample_size}')
 
 
 if __name__ == '__main__':
